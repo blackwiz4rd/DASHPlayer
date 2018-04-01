@@ -4,15 +4,15 @@ A python server was added to allow developers to test their algorithms (see #Ser
 
 # Dependencies
 All libraries are located in the ```lib/``` folder, link them to your IDE (This project was built with IntelliJ, so you don't need to do it if you use that IDE).
-For IntelliJ users, set project language level to "9" in "Project Structure | Project" and "Project SDK" to JDK.
+For IntelliJ users set project language level to "9" in "Project Structure | Project" and "Project SDK" to JDK.
 The video player is based on [VLCJ](https://github.com/caprica/vlcj) that uses LibVLC, install the VLC application to get it.
-However VLCJ has reported to have issues with MacOS. As it some functionalities are limited.</br> 
+However VLCJ has reported to have issues with MacOS. Some functionalities are limited.</br> 
 I have commented some lines in in both Player.java and DashPlayer.java because of that.</br>
 Multiple lines were commented:</br>
 player.play(); in DashAlgorithm.java</br>
 player.playItem(PlayerEventListener.segIndex - 1); in *Custom*DashAlgorithm.java</br>
 
-To activate DDASH algorithm you need to start the Learning agent first and then start the algorithm from ``Player.java`` or ``PlayerNOGUI.java``:
+To activate DDASH algorithm you need to start the Learning agent first and then start the algorithm from ``Player.java`` or ``PlayerNOGUI.java``:</br>
 ```sh start_agent.sh```
 
 To install dependencies for ``src/python_lib/Agent.py`` and ``src/server/manage.py``run
