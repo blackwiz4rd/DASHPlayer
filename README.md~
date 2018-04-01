@@ -1,0 +1,37 @@
+# DASHPlayer
+A simple Java implementation of a DASH client for video streaming developed for my Bachelor's degree final exam.
+A python server was added to allow developers to test their algorithms.
+
+# Dependencies
+All libraries are located in the ```lib/``` folder, link them to your IDE (This project was built with IntelliJ, so you don't need to do it if you use this IDE).
+For IntelliJ users, set project language level to "9" in "Project Structure | Project" and "Project SDK" to JDK.
+%For IntelliJ users, edit configurations and add two applications to run both TesterTrainer and Player main classes, also add a compund. Only with older version (TesterTrainer was used for testing only).
+The video player is based on [VLCJ](https://github.com/caprica/vlcj) that uses LibVLC, install the VLC application to get it.
+
+To activate DDASH algorithm you need to start the Learning agent:
+```sh
+sh start_agent.sh
+```
+
+To install dependencies for ``src/python_lib/Agent.py`` and ``src/server/manage.py``run
+```chmod +x setup.sh```
+```sh setup.sh```
+
+# Server side
+To start the server run:
+```sh start_server.sh```
+In ```src/server/media/``` static video content is stored.
+===========================================
+
+This directory contains the source code of my bachelor's degree final exam.
+
+Bachelor Degree in Information Engineering
+University of Padua, Italy
+
+Copyright and license information can be found in the file LICENSE. 
+Additional information can be found in the file NOTICE.
+
+# Authors
+This work is based on the project of Iacopo Mandatelli, Matteo Biasetton, Luca Piazzon.
+Final implementation of adaptive algorithms Davide Talon.
+Revisited from Luca Attanasio.
