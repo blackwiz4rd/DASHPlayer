@@ -1,2 +1,0 @@
-Mar 30, 2018 8:02:45 PM MarkovDecisionProcess computeNextState
-INFO: {"capacity": 3.9392E7, "action": 7, "quality": 1.0, "buffer": 2.0, "rebuffering_time": 0.006, "reward": 1.0, "state": [1.0, 0.0, 0.0, 0.0, 0.0, 3.9392E7, 4.0, 2.0]}
